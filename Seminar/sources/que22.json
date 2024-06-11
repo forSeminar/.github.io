@@ -1,0 +1,20 @@
+[
+    {
+	    "question": "増資に係る株式募集のため、株式交付費90円を支払った。",
+        "debit1": "株式交付費",
+        "debitAmount1": 90,
+        "credit1": "現金預金",
+        "creditAmount1": 90
+    },
+    {
+	    "question": "増資に係る株式募集のため、株式交付費90円を支払った。\n上記につき、繰延資産として計上した場合の決算整理仕訳を行う。\nなお、償却額は30円とする。",
+        "debit1": "株式交付費",
+        "debitAmount1": 90,
+        "debit2": "株式交付費償却",
+        "debitAmount2": 30,
+        "credit1": "現金預金",
+        "creditAmount1": 90,
+        "credit2": "株式交付費",
+        "creditAmount2": 30
+    }
+]

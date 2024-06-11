@@ -1,0 +1,96 @@
+body {
+    margin: 20px;
+    background-color: #ddd;
+}
+
+h1 {
+    text-align: center;
+}
+/* 問題の枠線スタイル */
+.question-box {
+    border: 1px solid #000;
+    background-color: #fefefe;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative; /* 解答ボタンの位置指定のため */
+}
+
+.answer {
+    margin: 10px 0px;
+}
+
+/* 解答ボタンのスタイル */
+.answer-btn {
+    position: absolute;
+    right: -100px; /* 解答ボタンを枠外に移動 */
+    top: 0px;
+    background-color: #eee;
+    color: #000;
+    padding: 5px 15px;
+}
+
+button {
+    cursor: pointer;
+    border-top: 2px solid #999;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-left: 2px solid #ccc;
+}
+
+/* コンテナの枠線スタイル */
+.container {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #eee;
+    width: 350px;
+    font-size: 90%;
+    margin: 0 auto; /* 水平方向にセンタリング */
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 0px;
+    text-align: center;
+}
+
+button {
+    border-top: 3px solid #999;
+    border-right: 3px solid #111;
+    border-bottom: 3px solid #111;
+    border-left: 3px solid #ccc;
+}
+
+#quizListButton {
+    text-align: center;
+}
+
+/* queList.html用のダークモードスタイル */
+.dark-mode {
+    background-color: #333;
+    color: #eee;
+}
+
+.dark-mode h1 {
+    color: #eee
+}
+.dark-mode .container {
+    background-color: #333;
+    border-color: #888;
+}
+
+.dark-mode .question-box {
+    background-color: #333;
+    border-color: #888;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #eee;
+    border-top: 3px solid #888;
+    border-right: 3px solid #eee;
+    border-bottom: 3px solid #eee;
+    border-left: 3px solid #555;
+}

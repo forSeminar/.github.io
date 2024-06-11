@@ -1,0 +1,49 @@
+[
+    {
+	    "question": "会社設立に際して株式を発行し、600円の払込みを受けた。\nなお、資本金組入額は会社法に規定する最低額とする。",
+        "debit1": "現金預金",
+        "debitAmount1": 600,
+        "credit1": "資本金",
+        "creditAmount1": 300,
+        "credit2": "資本準備金",
+        "creditAmount2": 300
+    },
+    {
+	    "question": "剰余金の配当決議時の仕訳を行う。\nなお、配当財源は繰越利益剰余金とし、配当金額は150円、準備金積立額は15円とする。",
+        "debit1": "繰越利益剰余金",
+        "debitAmount1": 165,
+        "credit1": "利益準備金",
+        "creditAmount1": 15,
+        "credit2": "未払配当金",
+        "creditAmount2": 150
+    },
+    {
+	    "question": "なお、配当財源は繰越利益剰余金とし、配当金額は150円、準備金積立額は15円とする。\n上記につき、配当金150円の支払いを行った。",
+        "debit1": "繰越利益剰余金",
+        "debitAmount1": 165,
+        "debit3": "未払配当金",
+        "debitAmount3": 150,
+        "credit1": "利益準備金",
+        "creditAmount1": 15,
+        "credit2": "未払配当金",
+        "creditAmount2": 150,
+        "credit3": "現金預金",
+        "creditAmount3": 150
+    },
+    {
+	    "question": "剰余金の配当決議時の仕訳を行う。\nなお、配当財源はその他資本剰余金とし、配当金額は150円、準備金積立額は15円とする。",
+        "debit1": "その他資本剰余金",
+        "debitAmount1": 165,
+        "credit1": "資本準備金",
+        "creditAmount1": 15,
+        "credit2": "未払配当金",
+        "creditAmount2": 150
+    },
+    {
+	    "question": "別途積立金120円の積立てを行った。",
+        "debit1": "繰越利益剰余金",
+        "debitAmount1": 120,
+        "credit1": "別途積立金",
+        "creditAmount1": 120
+    }
+]

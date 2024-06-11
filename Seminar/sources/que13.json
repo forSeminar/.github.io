@@ -1,0 +1,52 @@
+[
+    {
+	    "question": "社債を300円の払込みを受け発行した。",
+        "debit1": "現金預金",
+        "debitAmount1": 300,
+        "credit1": "社債",
+        "creditAmount1": 300
+    },
+    {
+	    "question": "社債の利払日における仕訳を行う。（利息法）\nなお、クーポン利息の支払額は10円、償却原価法による社債の増加額は5円とする。",
+        "debit1": "社債利息",
+        "debitAmount1": 15,
+        "credit1": "現金預金",
+        "creditAmount1": 10,
+        "credit2": "社債",
+        "creditAmount2": 5
+    },
+    {
+	    "question": "社債の利払日における仕訳を行う。（定額法）\nなお、クーポン利息の支払額は10円とする。",
+        "debit1": "社債利息",
+        "debitAmount1": 10,
+        "credit1": "現金預金",
+        "creditAmount1": 10
+    },
+    {
+	    "question": "社債の決算整理仕訳を行う。（定額法）\nなお、償却原価法による社債の増加額は5円とする。",
+        "debit1": "社債利息",
+        "debitAmount1": 5,
+        "credit1": "社債",
+        "creditAmount1": 5
+    },
+    {
+	    "question": "社債の満期日の仕訳を行う。\nなお、発行している社債の額面金額は350円とする。",
+        "debit1": "社債",
+        "debitAmount1": 350,
+        "credit1": "現金預金",
+        "creditAmount1": 350
+    },
+    {
+	    "question": "社債の買入償還に係る仕訳を行う。\nなお、社債の期首帳簿価額は335円、期首から買入償還時までの償却額は10円（定額法）、買入れ金額は350円とする。",
+        "debit1": "社債利息",
+        "debitAmount1": 10,
+        "debit2": "社債",
+        "debitAmount2": 345,
+        "debit3": "社債償還損",
+        "debitAmount3": 5,
+        "credit1": "社債",
+        "creditAmount1": 10,
+        "credit2": "現金預金",
+        "creditAmount2": 350
+    }
+]

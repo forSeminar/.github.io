@@ -1,0 +1,56 @@
+[
+    {
+	    "question": "法人税等の中間申告を行い、税額400円を納付した。",
+        "debit1": "仮払法人税等",
+        "debitAmount1": 400,
+        "credit1": "現金預金",
+        "creditAmount1": 400
+    },
+    {
+	    "question": " 法人税等の中間申告を行い、税額400円を納付した。\n上記につき、法人税等の年税額が1,000円と確定した。",
+        "debit1": "仮払法人税等",
+        "debitAmount1": 400,
+        "debit2": "法人税等",
+        "debitAmount2": "1,000",
+        "credit1": "現金預金",
+        "creditAmount1": 400,
+        "credit2": "仮払法人税等",
+        "creditAmount2": 400,
+        "credit3": "未払法人税等",
+        "creditAmount3": 600
+    },
+    {
+	    "question": "配当金につき源泉所得税10円を差引かれた残額140円を受取った。",
+        "debit1": "現金預金",
+        "debitAmount1": 130,
+        "debit2": "仮払法人税等",
+        "debitAmount2": 10,
+        "credit1": "受取配当金",
+        "creditAmount1": 140
+    },
+    {
+	    "question": "固定資産税100円を納付した。",
+        "debit1": "租税公課",
+        "debitAmount1": 100,
+        "credit1": "現金預金",
+        "creditAmount1": 100
+    },
+    {
+	    "question": "収入印紙80円を購入した。（購入時に費用処理）",
+        "debit1": "租税公課",
+        "debitAmount1": 80,
+        "credit1": "現金預金",
+        "creditAmount1": 80
+    },
+    {
+	    "question": "収入印紙80円を購入した。（購入時に費用処理）\n上記につき、期末において未使用の収入印紙30円があった。",
+        "debit1": "租税公課",
+        "debitAmount1": 80,
+        "debit2": "貯蔵品",
+        "debitAmount2": 30,
+        "credit1": "現金預金",
+        "creditAmount1": 80,
+        "credit2": "租税公課",
+        "creditAmount2": 30
+    }
+]

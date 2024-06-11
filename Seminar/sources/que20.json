@@ -1,0 +1,45 @@
+[
+    {
+	    "question": "本店の利益は350円であるため、当該金額を総合損益勘定へ振替える。",
+        "debit1": "損益",
+        "debitAmount1": 350,
+        "credit1": "総合損益",
+        "creditAmount1": 350
+    },
+    {
+	    "question": "支店の利益は100円であるため、当該金額を総合損益勘定へ振替える。\nよって、支店側の仕訳を行う。",
+        "debit1": "損益",
+        "debitAmount1": 100,
+        "credit1": "本店",
+        "creditAmount1": 100
+    },
+    {
+	    "question": "支店の利益は100円であるため、当該金額を総合損益勘定へ振替える。\nよって、本店側の仕訳を行う。",
+        "debit1": "支店",
+        "debitAmount1": 100,
+        "credit1": "総合損益",
+        "creditAmount1": 100
+    },
+    {
+	    "question": "期首商品に係る内部利益30円の整理を行い、当該金額を総合損益勘定へ振替える。",
+        "debit1": "繰延内部利益",
+        "debitAmount1": 30,
+        "debit2": "繰延内部利益戻入",
+        "debitAmount2": 30,
+        "credit1": "繰延内部利益戻入",
+        "creditAmount1": 30,
+        "credit2": "総合損益",
+        "creditAmount2": 30
+    },
+    {
+	    "question": "期末商品に係る内部利益20円の整理を行い、当該金額を総合損益勘定へ振替える。",
+        "debit1": "繰延内部利益控除",
+        "debitAmount1": 20,
+        "debit2": "繰延内部利益",
+        "debitAmount2": 20,
+        "credit1": "総合損益",
+        "creditAmount1": 20,
+        "credit2": "繰延内部利益控除",
+        "creditAmount2": 29
+    }
+]
